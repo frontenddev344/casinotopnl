@@ -35,6 +35,14 @@
     }
 }
 
+@media (max-width:1500px) {
+    .nederlandse {
+        font-size: 30px !important;
+        line-height: 40px;
+
+}
+}
+
 @media (max-width:1023px) {
     .mySidenavs {
         background: #2d3259;
@@ -59,5 +67,5 @@
 
 .active {
     background-color: #0a072a;
-    color: #fff !important; 
+    color: #fff !important;
 }
