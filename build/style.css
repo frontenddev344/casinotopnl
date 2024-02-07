@@ -743,6 +743,10 @@ video {
   max-width: 81px;
 }
 
+.resize {
+  resize: both;
+}
+
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
@@ -802,6 +806,10 @@ video {
 .border-\[\#0A072A\] {
   --tw-border-opacity: 1;
   border-color: rgb(10 7 42 / var(--tw-border-opacity));
+}
+
+.bg-\[\#00000026\] {
+  background-color: #00000026;
 }
 
 .bg-\[\#0072b1\] {
@@ -936,6 +944,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .py-\[13px\] {
@@ -1214,6 +1227,32 @@ video {
 .active {
   background-color: #0a072a;
   color: #fff !important;
+}
+
+.links {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: white;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a img.icon {
+  display: inline-block;
+  height: 1em;
+  margin: 0 0 -0.1em 0.3em;
 }
 
 .after\:absolute::after {
