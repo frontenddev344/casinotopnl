@@ -743,10 +743,6 @@ video {
   max-width: 81px;
 }
 
-.resize {
-  resize: both;
-}
-
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
@@ -1229,32 +1225,6 @@ video {
   color: #fff !important;
 }
 
-.links {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  font-size: 18px;
-  font-family: sans-serif;
-  background-color: white;
-  padding: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  margin-left: 1em;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a img.icon {
-  display: inline-block;
-  height: 1em;
-  margin: 0 0 -0.1em 0.3em;
-}
-
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
@@ -1513,3 +1483,4 @@ a img.icon {
     gap: 30px;
   }
 }
+
