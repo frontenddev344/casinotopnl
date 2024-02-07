@@ -8,7 +8,8 @@ module.exports = {
         'luxe-pattern': "url('../build/images/Luxury.jpg')",
         'Privacy-pattern': "url('../build/images/Privacy-.avif')",
         'termn': "url('../build/images/termn-.avif')",
-        'top': "url('../build/images/top.avif')"
+        'top': "url('../build/images/top.avif')",
+        'contact': "url('../build/images/au_banner.jpg')"
 
       },
       fontFamily: {

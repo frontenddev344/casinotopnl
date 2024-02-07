@@ -711,6 +711,10 @@ video {
   max-width: 1400px;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .items-center {
   align-items: center;
 }
@@ -800,6 +804,10 @@ video {
   background-image: url('../build/images/top.avif');
 }
 
+.bg-contact {
+  background-image: url('../build/images/au_banner.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -850,6 +858,11 @@ video {
   padding-right: 30px;
 }
 
+.px-\[60px\] {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -890,9 +903,14 @@ video {
   padding-bottom: 80px;
 }
 
-.px-\[60px\] {
-  padding-left: 60px;
-  padding-right: 60px;
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-\[16px\] {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .pb-\[20px\] {
@@ -1253,6 +1271,10 @@ video {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:items-center {
