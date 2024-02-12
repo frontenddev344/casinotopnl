@@ -858,23 +858,23 @@ video {
 }
 
 .bg-Privacy-pattern {
-  background-image: url('../build/images/Privacy-.avif');
+  background-image: url('images/Privacy-.avif');
 }
 
 .bg-contact {
-  background-image: url('../build/images/au_banner.jpg');
+  background-image: url('images/au_banner.jpg');
 }
 
 .bg-hero-pattern {
-  background-image: url('../build/images/hero.png');
+  background-image: url('images/hero.png');
 }
 
 .bg-luxe-pattern {
-  background-image: url('../build/images/Luxury.jpg');
+  background-image: url('images/Luxury.jpg');
 }
 
 .bg-top {
-  background-image: url('../build/images/top.avif');
+  background-image: url('images/top.png');
 }
 
 .bg-cover {
