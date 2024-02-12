@@ -1229,15 +1229,6 @@ video {
   color: #fff !important;
 }
 
-[data-aos^=fade][data-aos^=fade] {
-  opacity: 1 !important;
-  transition-property: opacity,transform;
-}
-
-[data-aos=fade-right] {
-  transform: translate3d(0px,0,0);
-}
-
 /* npx tailwindcss -i ./src/style.css -o ./build/style.css --watch */
 
 .after\:absolute::after {
